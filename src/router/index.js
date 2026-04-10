@@ -1,11 +1,6 @@
-import Home from '@/App.vue'
+import { createWebHashHistory } from 'vue-router'
 
 const router = createRouter({
-  history: createWebHistory('/lmbr_InsangTest/'),
-  routes: [
-    {
-      path: '/',
-      component: Home
-    }
-  ]
+  history: createWebHashHistory(),
+  routes: [...]
 })
