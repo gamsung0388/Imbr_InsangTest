@@ -4,9 +4,7 @@ import path from 'path'
 
 export default defineConfig(({ command }) => ({
   plugins: [vue()],
-  base: command === 'build'
-    ? '/lmbr_InsangTest/'
-    : '/',
+  base: '/lmbr_InsangTest/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src')
