@@ -10,9 +10,9 @@
 
 <script setup>
 import ImageSlot from './ImageSlot.vue';
-import harang from '/harang.png'
-import dorang from '/dorang.png'
-import hodot from '/hodot.png'
+import harang from '@/assets/harang.png'
+import dorang from '@/assets/dorang.png'
+import hodot from '@/assets/hodot.png'
 
 const props = defineProps({
   name: String

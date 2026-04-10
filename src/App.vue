@@ -106,7 +106,7 @@ const capture = async () => {
   margin: 0 auto;
   padding: 40px;
   
-  background: url('sky.png');
+  background: url('@/assets/sky.png');
   backdrop-filter: blur(10px); /* ✨ 선택 */
   border-radius: 20px;
 
